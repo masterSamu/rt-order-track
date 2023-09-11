@@ -1,0 +1,22 @@
+{
+  "name": "rt-api",
+  "version": "1.0.0",
+  "description": "real-time websocket api",
+  "main": "app.ts",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "npx nodemon src/app.ts"
+  },
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.5",
+    "eslint": "^8.48.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
